@@ -21,7 +21,7 @@ string ExtDateType::monthNumberToString(int month) {
   case 7:
     return "July";
   case 8:
-    return "October";
+    return "August";
   case 9:
     return "September";
   case 10:

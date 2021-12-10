@@ -26,4 +26,5 @@ private:
 // Non member functions
 //***********************************************************
 ostream &operator<<(ostream &out, const Person &person);
+istream &operator>>(istream &in, Person &person);
 #endif

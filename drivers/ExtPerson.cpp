@@ -8,9 +8,14 @@ void ExtPerson::print(ostream &out) const {
 
 void ExtPerson::load(istream &in) {
   Person::load(in);
-  in >> address >> relationship;
+  in >> address;
+  getline(in, phone_num, ',');
+  in.ignore(1);
+  in >> relationship;
   if (in)
     in >> birthday;
+
+  print(cout);
 }
 
 istream &operator>>(istream &in, ExtPerson &person) {
@@ -21,7 +26,8 @@ istream &operator>>(istream &in, ExtPerson &person) {
 istream &operator>>(istream &in, Relationship &rel) {
   string temp;
 
-  in >> temp;
+  getline(in, temp, ',');
+  in.ignore(1);
 
   if (temp == "Business Associate")
     rel = BUSINESS_ASSOCIATE;
@@ -30,7 +36,7 @@ istream &operator>>(istream &in, Relationship &rel) {
   else if (temp == "Friend")
     rel = FRIEND;
   else {
-    cerr << "No such relationship exists.\n";
+    cerr << "No such relationship exists. (" << temp << ")\n";
     exit(1);
   }
 

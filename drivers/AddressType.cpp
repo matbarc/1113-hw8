@@ -7,9 +7,18 @@ void AddressType::print(ostream &out) const {
   out << address << sep << city << sep << state << sep << zip;
 }
 
-void AddressType::load(istream &in) { in >> address >> city >> state >> zip; }
+void AddressType::load(istream &in) {
+  getline(in, address, ',');
+  in.ignore(1);
+  getline(in, city, ',');
+  in.ignore(1);
+  getline(in, state, ',');
+  in.ignore(1);
+  getline(in, zip, ',');
+  in.ignore(1);
+}
 
-ostream &operator<<(ostream &out, AddressType &addr) {
+ostream &operator<<(ostream &out, const AddressType &addr) {
   addr.print(out);
   return out;
 }

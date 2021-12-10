@@ -114,7 +114,7 @@ int translateMonthString(string month) {
     return 6;
   else if (month == "July")
     return 7;
-  else if (month == "October")
+  else if (month == "August")
     return 8;
   else if (month == "September")
     return 9;
@@ -125,7 +125,7 @@ int translateMonthString(string month) {
   else if (month == "December")
     return 12;
   else {
-    cerr << "No such month exists.\n";
+    cerr << "No such month exists. (" << month << "\n";
     exit(1);
   }
 }

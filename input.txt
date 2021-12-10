@@ -1,0 +1,8 @@
+George, Parker, 777 Lucky Roll Lane, Denver, Colorado, 80014, 720-333-0202, Business Associate, December 1 1990
+Ronald, McBurgerking, 420 Kingston St SE, Minneapolis, Minnesota, 55404, 612-020-6009, Friend, August 24 1999
+Fred, Reina, 329 Hasselbrook Rd, Nowheresville, Florida, 24343, 333-564-4324, Family Member, September 25 1998
+Rick, Reina, 329 Hasselbrook Rd, Nowheresville, Florida, 24343, 333-624-1924, Family Member, April 28 1999
+Tom, Reina, 329 Hasselbrook Rd, Nowheresville, Florida, 24343, 333-434-9874, Family Member, May 18 1972
+Dennis, Dyson, 534 Queue Court N, Albany, New York, 12084, 518-322-4553, Friend
+Harold, Krayon, 92 Color Circuit Drive, Citiesville, California, 42343, 432-663-2432, Friend
+Tom, Lawyer, 999 Objection St S, Monroe, Montana, 11543, 543-323-7555, Business Associate, May 4 1982
